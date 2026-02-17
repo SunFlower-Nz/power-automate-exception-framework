@@ -80,14 +80,6 @@ These patterns achieved in production:
 - **Zero data loss** during failures (WQ-Errors preserves every error)
 - **< 5 min MTTR** (Mean Time To Recovery) via structured logs + screenshots
 
-## Quick Start
-
-1. Read the patterns in order (1 → 6)
-2. Study the [`examples/orchestrator-workqueue/`](examples/orchestrator-workqueue/) code
-3. Read the [`GUIA_IMPLEMENTACAO.md`](examples/orchestrator-workqueue/GUIA_IMPLEMENTACAO.md) for the migration guide
-4. Copy the subflow `.txt` files into your PAD designer
-5. Adapt the `Main.txt` phases to your business process
-
 ## Tech Stack
 
 - **Power Automate Desktop**: Robin language (`.txt` subflow exports)
